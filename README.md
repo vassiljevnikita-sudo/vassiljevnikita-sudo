@@ -32,7 +32,7 @@ Jones E, Vassiljev N. Zukunft der Pharmazie: Welche Kompetenzen brauchen Apothek
 
 ## Availability
 
-Full-time from 15 Feb to 11 Apr 2027, up to 20 hours a week from 12 Apr 2027, and full-time from 18 Jul 2027.
+Up to 15 hours a week from 1 Feb to 30 Jun 2027, full-time from 15 Sep 2027.
 
 ## Contact
 
