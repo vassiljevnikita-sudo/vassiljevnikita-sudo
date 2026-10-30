@@ -24,7 +24,11 @@ Research on how to train and select stock-selection models over time without lea
 
 ### portfolio-check
 
-Opens every public link on this page each morning, logged out, and fails if one breaks. [Repo](https://github.com/vassiljevnikita-sudo/portfolio-check)
+Checks every morning, logged out, that the links, demos, READMEs and CI on this page still work, and fails if one breaks. [Repo](https://github.com/vassiljevnikita-sudo/portfolio-check)
+
+## Publication
+
+Jones E, Vassiljev N. Zukunft der Pharmazie: Welche Kompetenzen brauchen Apotheker*innen? Die Perspektive der Studierenden auf Studium und Approbationsordnung. *Bundesgesundheitsblatt* 68(5), 519–525 (2025). [doi:10.1007/s00103-025-04050-4](https://doi.org/10.1007/s00103-025-04050-4) · [Google Scholar](https://scholar.google.com/citations?user=4rua7qYAAAAJ)
 
 ## Contact
 
