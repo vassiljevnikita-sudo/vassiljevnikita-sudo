@@ -8,7 +8,7 @@ Pharmacy student at FU Berlin (semester 7 of 8) and working student in pharmaceu
 
 A public rebuild of a prototype from my working-student job, made with synthetic data and a neutral template; it contains no company material. The PowerShell workflow reads complaint cases from Excel, computes the statistics, builds the prompt for the Microsoft 365 Copilot desktop app and writes a Word report that stays marked DRAFT until a reviewer signs it. A JSON audit log records SHA-256 hashes of inputs and outputs. `./Invoke-ComplaintDossier.ps1 -Demo` runs on synthetic cases with a recorded answer, and CI runs it on every push. The live Copilot round trip is not yet confirmed end to end. Designed along GAMP 5 principles; not validated.
 
-[Repo](https://github.com/vassiljevnikita-sudo/complaint-dossier) · [Design note (GAMP 5)](https://github.com/vassiljevnikita-sudo/complaint-dossier/blob/main/docs/design-note.md) · [CI runs](https://github.com/vassiljevnikita-sudo/complaint-dossier/actions)
+[Repo](https://github.com/vassiljevnikita-sudo/complaint-dossier) · [Design note (GAMP 5)](https://github.com/vassiljevnikita-sudo/complaint-dossier/blob/main/docs/design-note.md) · [Sample report (PDF)](https://github.com/vassiljevnikita-sudo/complaint-dossier/blob/main/docs/sample/complaint-dossier-sample-DRAFT.pdf) · [CI runs](https://github.com/vassiljevnikita-sudo/complaint-dossier/actions)
 
 ### Stock-selection research without future information
 
