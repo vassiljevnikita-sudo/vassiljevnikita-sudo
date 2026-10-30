@@ -1,16 +1,16 @@
 # Nikita Vassiljev
 
-Pharmacy student at FU Berlin (semester 7 of 8) and working student in pharmaceutical quality assurance. I build software for QA work, with AI coding agents, and check the output with tests and CI.
+Pharmacy student at FU Berlin (semester 7 of 8) and working student in pharmaceutical quality assurance. I build software for QA work with AI coding agents: I set the requirements and acceptance checks, the agents write the code and tests, and CI runs the tests on every change.
 
 ## Projects
 
 ### Complaint Dossier
 
-A public rebuild of a prototype from my working-student job, made with synthetic data and a neutral template; it contains no company material. The PowerShell workflow reads complaint cases from Excel, computes the statistics, builds the prompt for the Microsoft 365 Copilot desktop app and writes a Word report that stays marked DRAFT until a reviewer signs it. A JSON audit log records SHA-256 hashes of inputs and outputs. `./Invoke-ComplaintDossier.ps1 -Demo` runs on synthetic cases with a prewritten sample answer instead of Copilot, and CI runs it on every push. The live Copilot round trip is not yet confirmed end to end. Designed along GAMP 5 principles; not validated.
+A PowerShell workflow that drafts a complaint trend report in Word, for example as input to a product quality review. The report stays marked DRAFT until a reviewer signs it. The workflow reads complaint cases from Excel, computes the statistics and builds the prompt for the Microsoft 365 Copilot desktop app, which drafts the assessment text. A JSON hash log records the SHA-256 hash of every input and output. `./Invoke-ComplaintDossier.ps1 -Demo` runs on synthetic cases with a prewritten sample answer instead of Copilot, and CI runs it on every push. The live Copilot round trip is not yet confirmed end to end. The project is a public rebuild of a prototype from my working-student job, made with synthetic data and a neutral template; it contains no company material. Designed along GAMP 5 principles; not validated.
 
 [Repo](https://github.com/vassiljevnikita-sudo/complaint-dossier) · [Design note (GAMP 5)](https://github.com/vassiljevnikita-sudo/complaint-dossier/blob/main/docs/design-note.md) · [Sample report (PDF)](https://github.com/vassiljevnikita-sudo/complaint-dossier/blob/main/docs/sample/complaint-dossier-sample-DRAFT.pdf) · [CI runs](https://github.com/vassiljevnikita-sudo/complaint-dossier/actions)
 
-### Stock-selection research without future information
+### Stock-selection research: chronological model evaluation
 
 Python research on how to train and select stock-selection models over time without using information from the future. It evaluates 2,790 model families chronologically on 1.63 billion prediction rows with known outcomes from 2016 to 2025. Each experiment fixes its pass/fail criteria before it runs. No tested method for choosing between models met them, and the repo documents what failed and why. The final holdout period is still closed, and no real capital is involved.
 
@@ -24,11 +24,11 @@ A to-do app in German where finished tasks earn XP and levels, and friends compe
 
 ### portfolio-check
 
-Checks every morning, logged out, that the project links, demo pages, READMEs and CI work, and scans the public repos for secrets and confidential employer terms. [Repo](https://github.com/vassiljevnikita-sudo/portfolio-check)
+Every morning it checks that project links, demo pages, READMEs and CI work for a logged-out visitor, and it scans my public repos for secrets and confidential employer terms. [Repo](https://github.com/vassiljevnikita-sudo/portfolio-check)
 
 ## Publication
 
-Jones E, Vassiljev N. Zukunft der Pharmazie: Welche Kompetenzen brauchen Apotheker*innen? Die Perspektive der Studierenden auf Studium und Approbationsordnung. *Bundesgesundheitsblatt* 68(5), 519–525 (2025). [doi:10.1007/s00103-025-04050-4](https://doi.org/10.1007/s00103-025-04050-4) · [Google Scholar](https://scholar.google.com/citations?user=4rua7qYAAAAJ)
+Jones E, Vassiljev N. Zukunft der Pharmazie: Welche Kompetenzen brauchen Apotheker*innen? Die Perspektive der Studierenden auf Studium und Approbationsordnung [The future of pharmacy: What knowledge and skills do pharmacists need? The students' perspective on the curriculum and licensing regulations for pharmacists]. *Bundesgesundheitsblatt* 68(5), 519–525 (2025). [doi:10.1007/s00103-025-04050-4](https://doi.org/10.1007/s00103-025-04050-4) · [Google Scholar](https://scholar.google.com/citations?user=4rua7qYAAAAJ)
 
 ## Availability
 
