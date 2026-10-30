@@ -1,6 +1,6 @@
 # Nikita Vassiljev
 
-Pharmacy student at FU Berlin (semester 7 of 8) and working student in pharmaceutical quality assurance. I build software for QA work with AI coding agents: I set the requirements and acceptance checks, the agents write the code and tests, and CI runs the tests on every change.
+Pharmacy student at FU Berlin (semester 7 of 8) and working student in pharmaceutical quality assurance. I build software with multi-agent workflows: agents plan, implement, test and review each other's work and keep going until a defined goal is met; I set the goal, the requirements and the acceptance checks. I set up the infrastructure myself: my own server, a Tailscale network across my devices and locally run LLMs.
 
 ## Projects
 
