@@ -1,6 +1,6 @@
 # Nikita Vassiljev
 
-Pharmacy student at FU Berlin (semester 7 of 8) and working student in pharmaceutical quality assurance. I build software with multi-agent workflows: agents plan, implement, test and review each other's work and keep going until a defined goal is met; I set the goal, the requirements and the acceptance checks. I set up the infrastructure myself: my own server, a Tailscale network across my devices and locally run LLMs.
+Pharmacy student at FU Berlin (semester 7 of 8) and working student in pharmaceutical quality assurance. Alongside my studies I build software with multi-agent workflows: I set the goal, the requirements and the acceptance checks; the agents plan, implement, test, review each other's work and keep going until the goal is met. I run the infrastructure myself: my own server, a Tailscale network across my devices and virtual machines for load balancing, faster worktree setup and shorter builds.
 
 ## Projects
 
