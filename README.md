@@ -32,6 +32,11 @@ A to-do app in German where finished tasks earn XP and levels, and friends compe
 
 Every morning it checks that project links, demo pages, READMEs and CI work for a logged-out visitor, and it scans my public repos for secrets and confidential employer terms. [Repo](https://github.com/vassiljevnikita-sudo/portfolio-check)
 
+### Battery fixes in forks
+
+- [tailscale-android-screen-power](https://github.com/vassiljevnikita-sudo/tailscale-android-screen-power): Tailscale for Android pauses the VPN while the screen is off and reconnects when it turns on, to cut background battery use. Experimental, with tests.
+- [t3code, branch fix/android-background-battery](https://github.com/vassiljevnikita-sudo/t3code/tree/fix/android-background-battery): the T3 Code Android app suspends its connections and activity reports in the background.
+
 ## Publication
 
 Jones E, Vassiljev N. Zukunft der Pharmazie: Welche Kompetenzen brauchen Apotheker*innen? Die Perspektive der Studierenden auf Studium und Approbationsordnung [The future of pharmacy: What knowledge and skills do pharmacists need? The students' perspective on the curriculum and licensing regulations for pharmacists]. *Bundesgesundheitsblatt* 68(5), 519–525 (2025). [doi:10.1007/s00103-025-04050-4](https://doi.org/10.1007/s00103-025-04050-4) · [Google Scholar](https://scholar.google.com/citations?user=4rua7qYAAAAJ)
