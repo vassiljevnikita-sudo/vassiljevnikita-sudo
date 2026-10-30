@@ -16,11 +16,11 @@ A personal decision system as an Android app; a development project with one use
 
 [Screenshots and videos](https://github.com/vassiljevnikita-sudo/life-os-showcase)
 
-### Stock-selection research: chronological model evaluation
+### Stock selection with Quality by Design (work in progress)
 
-Python research on how to train and select stock-selection models over time without using information from the future. It evaluates 2,790 model families chronologically on 1.63 billion prediction rows with known outcomes from 2016 to 2025. Each experiment fixes its pass/fail criteria before it runs. No tested method for choosing between models met all of them, and the repo documents what failed and why. The final test period has not been evaluated yet, and no real capital is involved.
+Python research on picking stocks that beat the world index fund URTH, using only information available on each day. 2,790 model families and 1.63 billion prediction rows (2016–2025) are judged by Quality by Design: map how the result responds to each setting and keep robust regions instead of the single best setting. The current selector is a fixed rule, Leader5. In backtests on EUR 10,000 it beat URTH by a mean EUR 1,658 a year in 2017–2021 and EUR 2,328 a year in 2022–2025; 2022–2025 informed the choice of the rule, so it is not an independent test. Since 5 Oct 2026 a paper-trading demo runs on a Trading 212 demo account with virtual money; no real capital is involved. A learned method for choosing between the models has not met its predefined criteria yet, and the repo documents what failed and why.
 
-[Demo](https://simple-light-qbd.expo.app/) · [Repo](https://github.com/vassiljevnikita-sudo/simple-and-light-research)
+[Paper-trading demo](https://simple-light-qbd.expo.app/graphen) · [Start page](https://simple-light-qbd.expo.app/) · [Repo](https://github.com/vassiljevnikita-sudo/simple-and-light-research)
 
 ### Questify
 
