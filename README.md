@@ -1,12 +1,12 @@
 # Nikita Vassiljev
 
-Pharmacy student at FU Berlin (semester 7 of 8) and working student in pharmaceutical quality assurance. I build software with AI coding agents and check their output with tests and CI.
+Pharmacy student at FU Berlin (semester 7 of 8) and working student in pharmaceutical quality assurance. I build software for QA work, with AI coding agents, and check the output with tests and CI.
 
 ## Projects
 
 ### Complaint Dossier
 
-A public rebuild of a prototype from my working-student job, made with synthetic data and a neutral template; it contains no company material. The PowerShell workflow reads complaint cases from Excel, computes the statistics, builds the prompt for the Microsoft 365 Copilot desktop app and writes a Word report that stays marked DRAFT until a reviewer signs it. A JSON audit log records SHA-256 hashes of inputs and outputs. `./Invoke-ComplaintDossier.ps1 -Demo` runs on synthetic cases with a recorded answer, and CI runs it on every push. The live Copilot round trip is not yet confirmed end to end. Designed along GAMP 5 principles; not validated.
+A public rebuild of a prototype from my working-student job, made with synthetic data and a neutral template; it contains no company material. The PowerShell workflow reads complaint cases from Excel, computes the statistics, builds the prompt for the Microsoft 365 Copilot desktop app and writes a Word report that stays marked DRAFT until a reviewer signs it. A JSON audit log records SHA-256 hashes of inputs and outputs. `./Invoke-ComplaintDossier.ps1 -Demo` runs on synthetic cases with a prewritten sample answer instead of Copilot, and CI runs it on every push. The live Copilot round trip is not yet confirmed end to end. Designed along GAMP 5 principles; not validated.
 
 [Repo](https://github.com/vassiljevnikita-sudo/complaint-dossier) · [Design note (GAMP 5)](https://github.com/vassiljevnikita-sudo/complaint-dossier/blob/main/docs/design-note.md) · [Sample report (PDF)](https://github.com/vassiljevnikita-sudo/complaint-dossier/blob/main/docs/sample/complaint-dossier-sample-DRAFT.pdf) · [CI runs](https://github.com/vassiljevnikita-sudo/complaint-dossier/actions)
 
@@ -18,7 +18,7 @@ Python research on how to train and select stock-selection models over time with
 
 ### Questify
 
-A to-do app in German where finished tasks earn XP and levels, and friends compete on a season leaderboard. I built it with AI coding agents. It is released as an Android APK and as a web app; the source code is private, the repo holds the APK releases.
+A to-do app in German where finished tasks earn XP and levels, and friends compete on weekly and monthly leaderboards. I built it with AI coding agents. It is released as an Android APK and as a web app; the source code is private, the repo holds the APK releases.
 
 [Open the app](https://mastertasker.expo.app/willkommen/) · [Releases repo](https://github.com/vassiljevnikita-sudo/questify-releases)
 
