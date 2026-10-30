@@ -10,6 +10,12 @@ A PowerShell workflow that drafts the individual report for each complaint in an
 
 [Repo](https://github.com/vassiljevnikita-sudo/complaint-dossier) · [Design note (GAMP 5)](https://github.com/vassiljevnikita-sudo/complaint-dossier/blob/main/docs/design-note.md) · [Sample report (PDF)](https://github.com/vassiljevnikita-sudo/complaint-dossier/blob/main/docs/sample/complaint-dossier-sample-DRAFT.pdf) · [CI runs](https://github.com/vassiljevnikita-sudo/complaint-dossier/actions)
 
+### Life OS
+
+A personal decision system as an Android app; a development project with one user, code private. It connects FinTS (bank approval pending), Android Health Connect, Google Calendar, Gmail, Google Maps, weather and AI models; input comes from a journal and tasks. Its core is a deterministic decision engine that plans the day, learns from actual behavior and keeps the plan load at about 70 % expected completion. A language model phrases follow-up questions and maps journal answers; only fixed, reversible rules take effect.
+
+[Screenshots and videos](https://github.com/vassiljevnikita-sudo/life-os-showcase)
+
 ### Stock-selection research: chronological model evaluation
 
 Python research on how to train and select stock-selection models over time without using information from the future. It evaluates 2,790 model families chronologically on 1.63 billion prediction rows with known outcomes from 2016 to 2025. Each experiment fixes its pass/fail criteria before it runs. No tested method for choosing between models met all of them, and the repo documents what failed and why. The final test period has not been evaluated yet, and no real capital is involved.
