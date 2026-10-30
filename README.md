@@ -12,7 +12,7 @@ A PowerShell tool for an existing complaint process: it fills your own Word repo
 
 ### Life OS
 
-A personal decision system as an Android app; a development project with one user, code private. It connects FinTS (bank approval pending), Android Health Connect, Google Calendar, Gmail, Google Maps, weather and AI models; input comes from a journal and tasks. Its core is a deterministic decision engine that plans the day, learns from actual behavior and keeps the plan load at about 70 % expected completion. A language model phrases follow-up questions and maps journal answers; only fixed, reversible rules take effect.
+A personal decision system as an Android app; a development project with one user, code private. It connects FinTS, Android Health Connect, Google Calendar, Gmail, Google Maps, weather and AI models; input comes from a journal and tasks. Its core is a deterministic decision engine that plans the day, learns from actual behavior and keeps the plan load at about 70 % expected completion. A language model phrases follow-up questions and maps journal answers; only fixed, reversible rules take effect.
 
 [Screenshots and videos](https://github.com/vassiljevnikita-sudo/life-os-showcase)
 
