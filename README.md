@@ -16,11 +16,11 @@ A personal decision system as an Android app; a development project with one use
 
 [Screenshots and videos](https://github.com/vassiljevnikita-sudo/life-os-showcase)
 
-### Stock selection with Quality by Design (work in progress)
+### Simple & Light: stock selection by Quality by Design, paper-traded on Trading 212
 
-Python research on picking stocks that beat the world index fund URTH, using only information available on each day. 2,790 model families and 1.63 billion prediction rows (2016–2025) are judged by Quality by Design: map how the result responds to each setting and keep robust regions instead of the single best setting. The current selector is a fixed rule, Leader5. In backtests on EUR 10,000 it beat URTH by a mean EUR 1,658 a year in 2017–2021 and EUR 2,328 a year in 2022–2025; 2022–2025 informed the choice of the rule, so it is not an independent test. Since 5 Oct 2026 a paper-trading demo runs on a Trading 212 demo account with virtual money; no real capital is involved. A learned method for choosing between the models has not met its predefined criteria yet, and the repo documents what failed and why.
+A fixed rule, Leader5, picks up to five large US stocks (at most 70 % of the account, the rest in an MSCI World ETF) and trades them on a Trading 212 demo account with virtual money: the account since 5 Oct 2026, Leader5 since 12 Oct. It came after a Quality by Design study of 2,790 model families and 1.63 billion prediction rows in which a learned model selection failed its own gates. In backtests on EUR 10,000 Leader5 beat the index fund URTH by a mean EUR 1,658 a year in 2017–2021 and EUR 2,328 a year in 2022–2025; 2022–2025 informed the choice of the rule, so it is not an independent test. Orders are DAY limit orders with exactly-once broker logic; my laptop runs them, and my desktop GPU adds price forecasts over my Tailscale network. The README lists every generation with its result, the failures included.
 
-[Paper-trading demo](https://simple-light-qbd.expo.app/graphen) · [Start page](https://simple-light-qbd.expo.app/) · [Repo](https://github.com/vassiljevnikita-sudo/simple-and-light-research)
+[Timeline and README](https://github.com/vassiljevnikita-sudo/simple-and-light-research#1-how-it-got-there) · [Demo account and trades](https://simple-light-qbd.expo.app/graphen) · [Start page](https://simple-light-qbd.expo.app/)
 
 ### Questify
 
